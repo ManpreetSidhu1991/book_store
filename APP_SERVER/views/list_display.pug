@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1= title
+  p "Here is a list of my favorite books #{title}"
+  
+
+  ul 
+  each book in books 
+    li= book.title + ' - ' + book.author

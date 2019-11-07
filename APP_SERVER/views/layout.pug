@@ -1,0 +1,19 @@
+doctype html
+html
+  head
+    title= title
+    
+    link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
+    link(rel='javascript', href='/javascripts/bootstrap.min.js')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    nav.navbar.fixed-top.navbar-expand-md.navbar-dark
+        .container
+                ul.mar
+                  a.navbar-brand(href='/') BookStore
+                  a.nav-item(href='/about/') About
+                  a.nav-item(href='/list_display/') Book List
+                  a.nav-item(href='/display/') Read
+    block content
+    footer
+            p ManpreetKaurSidhu@Assignment1

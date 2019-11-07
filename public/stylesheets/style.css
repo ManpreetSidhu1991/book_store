@@ -1,0 +1,26 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; 
+    background-color:azure;
+}
+
+a {
+  color: #ffffff;
+    padding-right: 10px;
+    text-decoration: none;
+}
+a.hover{
+    text-decoration: none;
+}
+
+nav{
+    background-color: black;
+}
+
+h1{
+    padding-top: 40px;
+}
+footer{
+    padding-top: 20px;
+    
+}
